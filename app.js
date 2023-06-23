@@ -19,6 +19,10 @@ class Calculator {
     this.operation = undefined;
   }
 
+  delete() {
+    this.currentOperand = this.currentOperand.toString().slice(0, -1);
+  }
+
   addNumber(number) {
     if (number === '.' && this.currentOperand.includes('.')) return;
     this.currentOperand = this.currentOperand.toString() + number.toString();
@@ -55,4 +59,9 @@ operatorButtons.forEach((operation) => {
     calculate.setOperation(operation.innerText);
     calculate.updateScreen();
   });
+});
+
+deleteButton.addEventListener('click', () => {
+  calculate.delete();
+  calculate.updateScreen();
 });

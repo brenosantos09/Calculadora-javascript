@@ -1,6 +1,7 @@
 # Project Description:
 
 This is a simple calculator project developed in JavaScript. The calculator features an intuitive interface that allows users to perform basic mathematical operations, including addition, subtraction, multiplication, and division.
+![calculatorPrint](https://github.com/brenosantos09/Calculadora-javascript/assets/96093244/01268356-de65-4093-aa78-e07fe6d16c4a)
 
 link to project:
 
